@@ -30,16 +30,17 @@
 <script type="text/javascript" src="js/loader.js"></script>
 <!-- fim link js -->
 
+<!-- início pesquisa -->
 <script>
 function myFunction() {
-  // Declare variables
+  // Declara variáveis
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
   ul = document.getElementById("myUL");
   li = ul.getElementsByTagName('li');
 
-  // Loop through all list items, and hide those who don't match the search query
+  // Faz um loop por todos os itens da lista e oculta aqueles que não correspondem à consulta de pesquisa
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];
     txtValue = a.textContent || a.innerText;
@@ -51,6 +52,7 @@ function myFunction() {
   }
 }
 </script>
+<!-- fim pesquisa -->
 </head>
 
 <body>
@@ -107,8 +109,7 @@ function myFunction() {
 	<div class="overlay"></div>
 	
 	<div class="mobile-side-menu">
-		<ul>
-			<!-- <li><a href="menu.html">INÍCIO</a></li> -->
+		<ul>			
 			<li><a href="empresa.html">A NUTRIRSE</a></li>
 			<li><a href="planos.html">NOSSOS PLANOS</a></li>
 			<li><a href="#">NOSSOS PACOTES</a></li>
