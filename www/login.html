@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="css/style_login.css" media="all">
+</head>
+<body>
+	<h2>Formulário de Login</h2>
+	<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+	<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Cadastrar</button>
+	
+	<!-- início logar -->
+	<div id="id01" class="modal_logar">  
+		<form class="modal_content_logar animate_logar" action="/action_page.php">
+			<div class="imgcontainer">
+				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+				<img src="imagens/img_avatar2.png" alt="Avatar" class="avatar">
+			</div>
+			<div class="container_modal">	
+				<label for="uname"><b>Seu nome</b></label>
+				<input type="text" placeholder="Digite seu email" name="uname" required>
+				<label for="psw"><b>Sua senha</b></label>
+				<input type="password" placeholder="Digite sua senha" name="psw" required>        
+				<button type="submit">Entrar</button>	  
+				<label><input type="checkbox" checked="checked" name="remember"> Permanecer conectado</label>				
+			</div>
+			<div class="container_rec_senha">				
+				<a href="#">Esqueceu a senha?</a>
+			</div>
+		</form>
+	</div>
+	<script>
+		// Get the modal
+		var modal_logar = document.getElementById('id01');
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal_logar) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+	<!-- fim logar -->
+	
+	<!-- inicio cadastro -->
+	<div id="id02" class="modal">  
+		<form class="modal-content animate" action="/action_page.php">
+			<div class="imgcontainer">
+				<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+				<img src="imagens/img_avatar2.png" alt="Avatar" class="avatar">
+			</div>
+			<div class="container_modal">	
+				<label for="uname"><b>Nome</b></label>
+				<input type="text" placeholder="Digite seu nome" name="uname" required>
+				<label for="uname"><b>Sobrenome</b></label>
+				<input type="text" placeholder="Digite seu sobrenome" name="uname" required>
+				<label for="psw"><b>Senha</b></label>
+				<input type="password" placeholder="Crie uma senha" name="psw" required> 
+				<button type="submit">Cadastrar</button>								
+			</div>			
+		</form>
+	</div>
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id02');
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+	<!-- fim cadastro -->
+</body>
+</html>

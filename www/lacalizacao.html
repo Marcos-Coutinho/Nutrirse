@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Localização</title>
+<!-- início app mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> 
+	addEventListener("load", function() { 
+		setTimeout(hideURLbar, 0); 
+		}, false); 
+		function hideURLbar(){ 
+			window.scrollTo(0,1); 
+		} 
+</script>
+<!-- fim app mobile -->
+
+<!-- início arquivos css -->
+<link type="text/css" rel="stylesheet" href="css/style_navbar_menu.css" media="all">
+<link type="text/css" rel="stylesheet" href="css/style_loader.css" media="all">
+<link type="text/css" rel="stylesheet" href="css/style_display_offline.css">
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="css/fontes.css" />
+<link type="text/css" rel="stylesheet" href="css/style_form.css">
+<!-- fim arquivos css -->
+
+<!-- início link js -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/offline.js"></script>
+<script type="text/javascript" src="js/loader.js"></script>
+<!-- fim link js -->
+</head>
+
+<body>
+<div class="corpo" id="corpo">
+<!-- início display offline -->
+<div class="offline_display" id="offline_display">
+	<div class="offline_img">
+		<img src="imagens/nuvem_offline.png">		
+	</div>
+	<div class="offline_texto">
+		<p>Problema de conexão</p>
+		<p class="offline_texto2">
+			Você precisa estar conectado à internet para
+			acessar este local. Verifique sua conexão e
+			tente novamente.			
+		</p>
+		<p>
+			<button class="offline_button" onclick="myFunction()">TENTAR NOVAMENTE</button>
+			<script>
+				function myFunction() {
+				location.reload();
+				}
+			</script>
+		</p>
+	</div>
+</div>
+<!-- fim display offline -->	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.3788019843682!2d-54.07533292752007!3d-2.0037117577491204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x928f557b06edf70f%3A0x32571cdbac460660!2sNutrirse!5e0!3m2!1spt-BR!2sbr!4v1539530554073" style="border:0; height:300px; width:100%;"></iframe>
+	
+</div>
+<!-- fim tela corpo loading -->
+
+<!-- início tela de loading -->
+<div class="carregando" id="carregando">
+	<div class="loader">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+		<div class="bar4"></div>
+		<div class="bar5"></div>
+		<div class="bar6"></div>		
+	</div>
+</div>
+<!-- fim tela de loadong -->
+</body>
+</html>

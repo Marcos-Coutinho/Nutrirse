@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Display Offline</title>
+<!-- início app mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> 
+	addEventListener("load", function() { 
+		setTimeout(hideURLbar, 0); 
+		}, false); 
+		function hideURLbar(){ 
+			window.scrollTo(0,1); 
+		} 
+</script>
+<!-- fim app mobile -->
+
+<!-- início arquivos css -->
+<link type="text/css" rel="stylesheet" href="css/style_geral.css" media="all">
+<link type="text/css" rel="stylesheet" href="css/style_navbar_menu.css" media="all">
+<link type="text/css" rel="stylesheet" href="css/style_loader.css" media="all">
+<link type="text/css" rel="stylesheet" href="css/style_display_offline.css">
+<!-- fim arquivos css -->
+
+<!-- início font-awesome-icons -->
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" media="all" />
+<!-- fim font-awesome-icons -->
+
+<!-- início link js -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/offline.js"></script>
+<script type="text/javascript" src="js/loader.js"></script>
+<!-- fim link js -->
+</head>
+
+<body>
+<div class="corpo" id="corpo">
+
+<!-- início display offline -->
+<div class="offline_display" id="offline_display">
+	<div class="offline_img">
+		<img src="imagens/nuvem_offline.png">		
+	</div>
+	<div class="offline_texto">
+		<p>Problema de conexão</p>
+		<p class="offline_texto2">
+			Você precisa estar conectado à internet para
+			acessar este local. Verifique sua conexão e
+			tente novamente.			
+		</p>
+		<p>
+			<button class="offline_button" onclick="myFunction()">TENTAR NOVAMENTE</button>
+			<script>
+				function myFunction() {
+				location.reload();
+				}
+			</script>
+		</p>
+	</div>
+</div>
+<!-- fim display offline -->
+
+<div class="teste">
+	<img src="imagens/9.jpg">
+</div>
+<p>
+	W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2018 by Refsnes Data. All Rights Reserved.
+	Powered by W3.CSS.			
+</p>
+</div>
+<!-- fim tela corpo loading -->
+
+<!-- início tela de loading -->
+<div class="carregando" id="carregando">
+	<div class="loader">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+		<div class="bar4"></div>
+		<div class="bar5"></div>
+		<div class="bar6"></div>		
+	</div>
+</div>
+<!-- fim tela de loadong -->
+</body>
+</html>
+
+
+
+
+

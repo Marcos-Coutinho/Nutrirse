@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Nossos Planos</title>
+<!-- início app mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> 
+	addEventListener("load", function() { 
+		setTimeout(hideURLbar, 0); 
+		}, false); 
+		function hideURLbar(){ 
+			window.scrollTo(0,1); 
+		} 
+</script>
+<!-- fim app mobile -->
+
+<!-- início arquivos css -->
+<!-- <link type="text/css" rel="stylesheet" href="css/style_geral.css" media="all"> -->
+<link type="text/css" rel="stylesheet" href="css/style_navbar_menu.css" media="all">
+<link type="text/css" rel="stylesheet" href="css/style_loader.css" media="all">
+<link type="text/css" rel="stylesheet" href="css/style_display_offline.css">
+<link type="text/css" rel="stylesheet" href="css/style_planos.css">
+
+<link type="text/css" rel="stylesheet" href="css/fontes.css" />
+<!-- fim arquivos css -->
+
+<!-- início font-awesome-icons -->
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" media="all" />
+<!-- fim font-awesome-icons -->
+
+<!-- início link js -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/offline.js"></script>
+<script type="text/javascript" src="js/loader.js"></script>
+<!-- fim link js -->
+</head>
+
+<body>
+<div class="corpo" id="corpo">	
+	<!-- início navbar menu -->		
+	<div class="navbar">
+		<div class="box_navbar">
+		
+			<!-- início icones voltar -->
+			<div class="btn_voltar_navbar">
+				<a href="javascript:history.back()">					
+					<img src="imagens/arrow_left.svg">
+				</a>				
+			</div>
+			<div class="titulo_navbar">					
+				Nossos Planos
+			</div>
+			<!-- fim icones voltar -->
+			
+			<!-- início icones right -->
+			<div class="btn_menu_navbar">				
+				<div class="toggleMenu">
+					<i class="fa fa-bars"></i>
+				</div>								
+			</div>
+			<div class="btn_icon1_navbar">
+				<a href="menu.html">
+					<img src="imagens/home.svg">
+				</a>
+			</div>
+			<div class="btn_icon2_navbar">
+				<!-- <a href="javascript:history.back()"> -->
+					<!-- <img src="imagens/share.svg"> -->
+				<!-- </a> -->
+			</div>
+			<!-- fim icones right -->
+		</div>
+	</div>	
+	<div class="overlay"></div>
+	
+	<div class="mobile-side-menu">
+		<ul>
+			<!-- <li><a href="menu.html">INÍCIO</a></li> -->
+			<li><a href="empresa.html">A NUTRIRSE</a></li>
+			<li><a href="planos.html">NOSSOS PLANOS</a></li>
+			<li><a href="#">NOSSOS PACOTES</a></li>
+			<li><a href="#">NOSSAS PROMOÇÕES</a></li>
+			<li><a href="#">NOSSOS PRODUTOS</a></li>
+			<li><a href="cardapio.html">CARDÁPIO DE MARMITAS</a></li>
+			<li><a href="#">MITO OU VERDADE?</a></li>
+			<li><a href="tabela.html">TABELA NUTRICIONAL</a></li>
+			<li><a href="#">CURIOSIDADES</a></li>
+			<li><a href="#">RECEITAS SAUDÁVEIS</a></li>
+			<li><a href="#">DICAS NUTRICIONAIS</a></li>
+			<li><a href="#">DICIONÁRIO NUTRICIONAL</a></li>
+			<li><a href="#">GALERIA DE IMAGENS</a></li>
+			<li><a href="contatos.html">LOCALIZAÇÃO E CONTATOS</a></li>
+			<li><a href="#">SOBRE O APLICATIVO</a></li>
+			<li>
+				<div class="redes_sociais">
+					<div class="face_menu">
+						<a href="#">							
+							<img src="imagens/facebook.jpg" width="40px" height="auto">
+							<p>FACEBOOK</p>
+						</a>
+					</div>					
+					<div class="insta_menu">
+						<a href="#">							
+							<img src="imagens/instagram.jpg" width="40px" height="auto">
+							<p>INSTAGRAM</p>
+						</a>
+					</div>
+				</div>
+			</li>
+		</ul>		
+	</div>
+	
+	<script type="text/javascript" src="js/slide-from-top.js"></script> 
+	<script type="text/javascript">
+      $(document).ready(function() {
+         $('.mobile-side-menu').slideFromTop({
+            menuBtn: $('.toggleMenu'),
+            navbar: $('.navbar'),
+            menuSpeed: 500,
+            bodyOverlay: $('.overlay')
+         });
+      });
+    </script>
+	<!-- fim navbar menu -->
+	
+	<!-- início corpo central -->
+	<div class="corpo_central">
+	
+		<div class="infor_apresentacao">
+			<!-- w3_agileits_head: cor do titulo -->
+			<h3 class="agileits_head_apresentacao">Plano 1<i class="fa fa-cutlery" aria-hidden="true"></i></h3>
+			<!--
+			<p class="subtitulo_f_branco_intro">
+				Com o intuito de solucionar o problema em que muitos se encontram atualmente, a falta de tempo ou até mesmo disposição para preparar uma refeição nutritiva e saborosa no seu dia a dia, a NUTRIRSE lança a diferenciada linha de alimentação saudável.
+			</p>
+			-->
+			<p class="subtitulo_f_branco_intro">
+				Com um mundo cada vez mais industrializado em relação à alimentação, é cada vez mais difícil conseguir ter uma alimentação saudável no dia a dia. É comum que grande parte da população tenha uma alimentação inadequada, regada a fast foods, comidas enlatadas, a falta de tempo ou até mesmo disposição para preparar uma refeição nutritiva e saborosa. Mas se você quer mudar essa rotina, então saiba que ainda existe uma luz no fim do túnel. A NUTRIRSE surgiu com o intuito de solucionar esse problema lançando a diferenciada linha de alimentação saudável.
+			</p>					
+		</div>
+		<div class="infor_apresentacao">
+			<!-- w3_agileits_head: cor do titulo -->
+			<h3 class="agileits_head_apresentacao">Plano 2<i class="fa fa-cutlery" aria-hidden="true"></i></h3>
+			<!--
+			<p class="subtitulo_f_branco_intro">
+				Com o intuito de solucionar o problema em que muitos se encontram atualmente, a falta de tempo ou até mesmo disposição para preparar uma refeição nutritiva e saborosa no seu dia a dia, a NUTRIRSE lança a diferenciada linha de alimentação saudável.
+			</p>
+			-->
+			<p class="subtitulo_f_branco_intro">
+				Com um mundo cada vez mais industrializado em relação à alimentação, é cada vez mais difícil conseguir ter uma alimentação saudável no dia a dia. É comum que grande parte da população tenha uma alimentação inadequada, regada a fast foods, comidas enlatadas, a falta de tempo ou até mesmo disposição para preparar uma refeição nutritiva e saborosa. Mas se você quer mudar essa rotina, então saiba que ainda existe uma luz no fim do túnel. A NUTRIRSE surgiu com o intuito de solucionar esse problema lançando a diferenciada linha de alimentação saudável.
+			</p>					
+		</div>	
+	</div>
+	<!-- fim corpo central -->	
+</div>
+<!-- fim tela corpo loading -->
+
+<!-- início tela de loading -->
+<div class="carregando" id="carregando">
+	<div class="loader">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+		<div class="bar4"></div>
+		<div class="bar5"></div>
+		<div class="bar6"></div>		
+	</div>
+</div>
+<!-- fim tela de loadong -->
+</body>
+</html>
+
+
+
+
+

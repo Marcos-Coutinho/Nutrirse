@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Filtro</title>
+<!-- início app mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> 
+	addEventListener("load", function() { 
+		setTimeout(hideURLbar, 0); 
+		}, false); 
+		function hideURLbar(){ 
+			window.scrollTo(0,1); 
+		} 
+</script>
+<!-- fim app mobile -->
+
+<!-- início arquivos css -->
+<link type="text/css" rel="stylesheet" href="../css/style_navbar_menu2.css" media="all">
+<link type="text/css" rel="stylesheet" href="../css/style_loader.css" media="all">
+<link type="text/css" rel="stylesheet" href="../css/style_display_offline.css">
+<link type="text/css" rel="stylesheet" href="../css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../css/fontes.css" />
+<link type="text/css" rel="stylesheet" href="../css/style_tabelas.css">
+<!-- fim arquivos css -->
+
+<!-- início link js -->
+<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../js/offline.js"></script>
+<script type="text/javascript" src="../js/loader.js"></script>
+<!-- fim link js -->
+</head>
+
+<body>
+	<!-- início navbar menu -->		
+	<div class="navbar">
+		<div class="box_navbar">			
+			<div class="btn_voltar_navbar">
+				<a href="javascript:history.back()">					
+					<img src="../imagens/arrow_left.svg">
+				</a>				
+			</div>
+			<div class="titulo_navbar2">					
+				Filtro				
+			</div>			
+			
+			<!-- início icones right -->
+			<div class="btn_menu_navbar">				
+				<div class="toggleMenu">
+					<i class="fa fa-bars"></i>
+				</div>								
+			</div>
+			<div class="btn_icon3_navbar">
+				
+			</div>
+			<div class="btn_icon2_navbar">
+				<a href="../menu.html">
+					<img src="../imagens/home.svg">
+				</a>				
+			</div>
+			<!-- fim icones right -->
+		</div>
+	</div>	
+	<div class="overlay"></div>
+	
+	<div class="mobile-side-menu">
+		<ul>
+			<!-- <li><a href="../menu.html">INÍCIO</a></li> -->
+			<li><a href="../empresa.html">A NUTRIRSE</a></li>
+			<li><a href="../planos.html">NOSSOS PLANOS</a></li>
+			<li><a href="#">NOSSOS PACOTES</a></li>
+			<li><a href="#">NOSSAS PROMOÇÕES</a></li>
+			<li><a href="#">NOSSOS PRODUTOS</a></li>
+			<li><a href="../cardapio.html">CARDÁPIO DE MARMITAS</a></li>
+			<li><a href="#">MITO OU VERDADE?</a></li>
+			<li><a href="../tabela.html">TABELA NUTRICIONAL</a></li>
+			<li><a href="#">CURIOSIDADES</a></li>
+			<li><a href="#">RECEITAS SAUDÁVEIS</a></li>
+			<li><a href="#">DICAS NUTRICIONAIS</a></li>
+			<li><a href="#">DICIONÁRIO NUTRICIONAL</a></li>
+			<li><a href="#">GALERIA DE IMAGENS</a></li>
+			<li><a href="../contatos.html">LOCALIZAÇÃO E CONTATOS</a></li>
+			<li><a href="#">SOBRE O APLICATIVO</a></li>
+			<li>
+				<div class="redes_sociais">
+					<div class="face_menu">
+						<a href="#">							
+							<img src="../imagens/facebook.jpg" width="40px" height="auto">
+							<p>FACEBOOK</p>
+						</a>
+					</div>					
+					<div class="insta_menu">
+						<a href="#">							
+							<img src="../imagens/instagram.jpg" width="40px" height="auto">
+							<p>INSTAGRAM</p>
+						</a>
+					</div>
+				</div>
+			</li>
+		</ul>		
+	</div>	
+	<script type="text/javascript" src="../js/slide-from-top.js"></script> 
+	<script type="text/javascript">
+      $(document).ready(function() {
+         $('.mobile-side-menu').slideFromTop({
+            menuBtn: $('.toggleMenu'),
+            navbar: $('.navbar'),
+            menuSpeed: 500,
+            bodyOverlay: $('.overlay')
+         });
+      });
+    </script>
+	<!-- fim navbar menu -->
+	
+	<!-- início topo -->
+	<div class="titulo_filter">
+		Grupo dos Alimentos
+	</div>	
+	<!-- fim topo -->
+	
+	<!-- início lista -->
+	<div class="lista_filter">		
+		<ul id="myUL_filter">				
+			<li>
+				<a href="../tabela.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Todos
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Alimentos industrializados
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Alimentos preparados
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Bebidas (alcoólicas e não alcoólicas)
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Carnes e derivados
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Cereais e derivados
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Frutas e derivados
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Gorduras e oléos
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Leites e derivados
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Leguminosas e derivados
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Miscelâneas
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Ovos e derivados
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Pescados e frutos do mar
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Produtos açucarados
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Sementes e nozes
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+		<ul id="myUL_filter">				
+			<li>
+				<a href="alimentos_preparados.html">					
+					<div class="tab_filter_img">
+						<img src="../imagens/align_left.svg" width="26px" height="auto">
+					</div>
+					<div class="tab_filter_titulo">
+						Verduras, hortaliças e derivados
+					</div>
+					<div class="tab_filter_seta">
+						<img src="../imagens/arrow-right.svg" width="20px" height="auto">				
+					</div>
+				</a>
+			</li>			
+		</ul>
+	</div>
+	<!-- fim lista -->
+</body>
+</html>
+
+
+
+
+

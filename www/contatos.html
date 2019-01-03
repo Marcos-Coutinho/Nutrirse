@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Contatos</title>
+<!-- início app mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> 
+	addEventListener("load", function() { 
+		setTimeout(hideURLbar, 0); 
+		}, false); 
+		function hideURLbar(){ 
+			window.scrollTo(0,1); 
+		} 
+</script>
+<!-- fim app mobile -->
+
+<!-- início arquivos css -->
+<link type="text/css" rel="stylesheet" href="css/style_navbar_menu.css" media="all">
+<link type="text/css" rel="stylesheet" href="css/style_loader.css" media="all">
+<link type="text/css" rel="stylesheet" href="css/style_display_offline.css">
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="css/fontes.css" />
+<link type="text/css" rel="stylesheet" href="css/style_form.css">
+<!-- fim arquivos css -->
+
+<!-- início link js -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/offline.js"></script>
+<script type="text/javascript" src="js/loader.js"></script>
+<!-- fim link js -->
+</head>
+
+<body>
+	<!-- início navbar menu -->		
+	<div class="navbar">
+		<div class="box_navbar">			
+			<div class="btn_voltar_navbar">
+				<a href="javascript:history.back()">					
+					<img src="imagens/arrow_left.svg">
+				</a>				
+			</div>
+			<div class="titulo_navbar">					
+				Localização e Contatos				
+			</div>			
+			
+			<!-- início icones right -->
+			<div class="btn_menu_navbar">				
+				<div class="toggleMenu">
+					<i class="fa fa-bars"></i>
+				</div>								
+			</div>
+			<div class="btn_icon1_navbar">
+				<a href="menu.html">
+					<img src="imagens/home.svg">
+				</a>
+			</div>
+			<div class="btn_icon2_navbar">
+				<!-- <a href="menu.html"> -->
+					<!-- <img src="imagens/home.svg"> -->
+				<!-- </a> -->
+			</div>
+			<!-- fim icones right -->
+		</div>
+	</div>	
+	<div class="overlay"></div>
+	
+	<div class="mobile-side-menu">
+		<ul>
+			<!-- <li><a href="menu.html">INÍCIO</a></li> -->
+			<li><a href="empresa.html">A NUTRIRSE</a></li>
+			<li><a href="planos.html">NOSSOS PLANOS</a></li>
+			<li><a href="#">NOSSOS PACOTES</a></li>
+			<li><a href="#">NOSSAS PROMOÇÕES</a></li>
+			<li><a href="#">NOSSOS PRODUTOS</a></li>
+			<li><a href="cardapio.html">CARDÁPIO DE MARMITAS</a></li>
+			<li><a href="#">MITO OU VERDADE?</a></li>
+			<li><a href="tabela.html">TABELA NUTRICIONAL</a></li>
+			<li><a href="#">CURIOSIDADES</a></li>
+			<li><a href="#">RECEITAS SAUDÁVEIS</a></li>
+			<li><a href="#">DICAS NUTRICIONAIS</a></li>
+			<li><a href="#">DICIONÁRIO NUTRICIONAL</a></li>
+			<li><a href="#">GALERIA DE IMAGENS</a></li>
+			<li><a href="contatos.html">LOCALIZAÇÃO E CONTATOS</a></li>
+			<li><a href="#">SOBRE O APLICATIVO</a></li>
+			<li>
+				<div class="redes_sociais">
+					<div class="face_menu">
+						<a href="#">							
+							<img src="imagens/facebook.jpg" width="40px" height="auto">
+							<p>FACEBOOK</p>
+						</a>
+					</div>					
+					<div class="insta_menu">
+						<a href="#">							
+							<img src="imagens/instagram.jpg" width="40px" height="auto">
+							<p>INSTAGRAM</p>
+						</a>
+					</div>
+				</div>
+			</li>
+		</ul>		
+	</div>	
+	<script type="text/javascript" src="js/slide-from-top.js"></script> 
+	<script type="text/javascript">
+      $(document).ready(function() {
+         $('.mobile-side-menu').slideFromTop({
+            menuBtn: $('.toggleMenu'),
+            navbar: $('.navbar'),
+            menuSpeed: 500,
+            bodyOverlay: $('.overlay')
+         });
+      });
+    </script>
+	<!-- fim navbar menu -->
+	
+	<!-- início topo -->
+	<div class="text_card_top">
+		Aqui estão disponíveis diversas formas de você entrar em contato com a nutrirse. Escolha a que melhor lhe servir, que teremos um imenso prazer em atendê-lo.
+	</div>
+	<!-- fim topo -->
+	
+	<!-- início onde estamos -->
+	<div class="text_card">		
+		<div class="titulo_contatos_endereco">
+			Onde Estamos
+		</div>
+		<div class="texto_contatos_endereco">
+			<div class="icon_end">
+				<div class="icon_end0">
+					<i class="fa fa-home"></i>
+				</div>				
+				<div class="txt_end">
+					ENDEREÇO
+				</div>
+				<div class="txt_end1">
+					Travessa Quatro de Outubro, 31 - Centro - Monte Alegre - Pará
+				</div>	
+			</div>
+			
+			<div class="icon_end">
+				<div class="icon_end1">
+					<i class="fa fa-phone"></i>
+				</div>				
+				<div class="txt_end">
+					FONES
+				</div>
+				<div class="txt_end1">
+					(93) 99133-4335<br />
+					(93) 99133-4335
+				</div>	
+			</div>
+			
+			<div class="icon_end">
+				<div class="icon_end2">
+					<i class="fa fa-envelope"></i>
+				</div>				
+				<div class="txt_end">
+					E-MAIL
+				</div>
+				<div class="txt_end1">
+					contatos@nutrirse.com.br
+				</div>	
+			</div>			
+		</div>		
+	</div>	
+	<!-- fim onde estamos -->	
+	
+	<!-- início formulário de contatos -->
+	<div class="text_card">		
+		<div class="titulo_contatos_fom">
+			Formulário de Contatos
+		</div>
+		<div class="subtitulo_contatos_form">
+			Através do formulário abaixo você entra em contato conosco enviando suas opniões, sujestões ou críticas.
+		</div>
+		<div class="texto_contatos_form">			
+			<form action="">
+				<input type="text" placeholder="Seu nome" name="email" required>		
+				<input type="text" placeholder="Seu e-mail" name="email" required>		
+				<input type="text" placeholder="Assunto" name="email" required>		
+				<textarea class="textarea_cont" placeholder="Sua mensagem" name="mensagem" required></textarea>
+				<br><br>
+				<div class="btn_cont">
+					<button type="submit" class="btn">Enviar</button>
+					<button type="reset" class="btn">Limpar</button>
+				</div>
+			</form>
+		</div>		
+	</div>
+	<!-- fim formulário de contatos -->		
+	
+	<!-- início novidades -->
+	<div class="text_card">
+		<div class="titulo_contatos_endereco">
+			Novidades
+		</div>
+		<!-- <div class="sublinhado_news"></div> -->
+		<div class="texto_contatos_news">
+			Receba em seu e-mail novidades, informações, dicas, atualizações e muito mais sobre a nutrirse.
+		</div>
+		<div class="container_news">
+			<form action="">
+				<div class="container_input">
+					<input type="text" placeholder="Seu e-mail" name="email" required>
+				</div>
+				<div class="container_btn">
+					<button type="submit" class="btn_news">Enviar</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- fim novidades -->
+	
+	<!-- início localização -->
+	<div class="text_card">
+		<div class="titulo_contatos_endereco">
+			Nossa Localização
+		</div>
+		<!-- <div class="sublinhado_loc"></div> -->
+		<div class="subtitulo_contatos_form">
+			Veja no mapa abaixo onde estamos localizados.
+		</div>
+		<div class="texto_contatos_loc">
+			<iframe  scrolling="no" style="border:0" width="95%" height="300px" name="iframe_1" id="iframe1" src="lacalizacao.html" allowfullscreen></iframe>
+		</div>
+	</div>
+	<!-- fim localização -->
+</body>
+</html>
+
+
+
+
+
