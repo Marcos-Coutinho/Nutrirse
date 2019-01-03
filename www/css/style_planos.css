@@ -1,0 +1,139 @@
+
+
+
+
+
+/* ------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	margin:0;
+	font-family:'Hero', 'Open Sans', sans-serif;
+	background:#fff;
+    background-size: cover;
+}
+a{
+	text-decoration:none;
+	outline:none;	
+}
+.corpo{
+	display:none;
+}
+.carregando{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:none;
+}
+.corpo_central{
+	margin-top:58px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.infor_apresentacao{
+	padding:5px 0px 0px 0px;
+}
+.infor_apresentacao h3{
+	font-size: 1.2em;
+}
+.agileits_head_apresentacao{
+	text-align:center;
+	position:relative;
+	color:#212121;
+}
+.agileits_head_apresentacao i{
+	display:block;
+	color:#f44336;
+    font-size: 25px;
+    display: block;
+}
+.agileits_head_apresentacao:before,.agileits_head_apresentacao:after{
+	content: " ";
+    position: absolute;
+    top:80%;
+    width: 10%;
+    height: 2px;
+    background: #f44336;
+}
+.agileits_head_apresentacao:before{
+	left:36%;
+}
+.agileits_head_apresentacao:after{
+	right:36%;
+}
+
+@media (max-width: 360px){
+	.infor_apresentacao h3{
+		font-size: 1.1em;
+	}
+	.agileits_head_apresentacao i {
+		font-size: 17px;
+	}
+	.agileits_head_apresentacao:before, .agileits_head_apresentacao:after {
+		width: 30%;
+	}
+	.agileits_head_apresentacao:after {
+		right: 15%;
+	}
+	.agileits_head_apresentacao:before {
+		left: 15%;
+	}
+}
+.subtitulo_f_branco_intro{
+	text-align:left;
+	color:#212121;
+	margin:1em 0 0em;
+	padding-bottom:10px;
+	font-family:Hero;
+	font-size:14px;
+}
+
+@media (max-width: 320px){
+	.infor_apresentacao h3{
+		font-size: 1.1em;
+	}
+	.agileits_head_apresentacao i {
+		font-size: 17px;
+	}
+	.agileits_head_apresentacao:before, .agileits_head_apresentacao:after {
+		width: 30%;
+	}
+	.agileits_head_apresentacao:after {
+		right: 15%;
+	}
+	.agileits_head_apresentacao:before {
+		left: 15%;
+	}
+	.subtitulo_f_branco_intro{
+		text-align:left;
+		color:#212121;
+		margin:1em 0 0em;
+		padding-bottom:10px;
+		font-family:Hero;
+		font-size:14px;
+	}
+}
+
+

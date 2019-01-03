@@ -1,0 +1,373 @@
+body, html {
+  /* background-color: #1c2020;  e9f0da */
+  background-color: #248a41;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  color:#fff;
+
+}
+
+.texto {
+	background:#;
+	font-family:'Open Sans', sans-serif;
+	font-size:13px;
+	margin: 0 auto;
+	width: 80%;
+	height: 50px;
+	text-align: center;
+	position: absolute;
+	top: 57%;
+	left: 50%;
+	-webkit-transform: translateY(-57%) translateX(-50%);
+	font-weight:bold;
+}
+.texto2{
+	font-size:11px;
+	font-weight:lighter;
+}
+
+.logo_offline img{
+	width:25%;
+	height:auto;
+	margin: 0 auto;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	-webkit-transform: translateY(-0%) translateX(-50%);
+	}
+
+.loader img{
+	width:40%;
+	height:auto;
+}
+
+.loader {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 10px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translateY(-40%) translateX(-50%);
+}
+.loader > div {
+  height: 100%;
+  width: 80%;
+  display: inline-block;
+  float: left;
+  margin-left: 2px;
+  -webkit-animation: delay 0.8s infinite ease-in-out;
+  animation: delay 0.8s infinite ease-in-out;
+}
+
+.button_offlin {
+    text-align: center; /* Center-align text */
+    width: 100%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 7px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #248a41; /* White text color */
+    font-size: 12px; /* Increased font size */
+	text-decoration:none;
+	outline:none;
+	background:#fff;
+	border:1px solid #fff;
+	cursor:pointer;
+}
+
+@media (max-width:736px){
+
+}
+
+@media (max-width:667px){ 
+
+}
+
+/* celulares
+5" , 5.5" - lindscap 
+*/
+@media (max-width: 640px){
+
+}
+
+/* 
+tablet
+Samsung Galaxy Tab (600 x 1024), 
+BlackBerry PlayBook (600 x 1024),
+Amazon Kindle Fire (600 x 800) 
+*/
+@media (max-width: 600px){
+	.logo_offline img{
+		width:25%;
+		height:auto;
+		top: 0%;
+		left: 50%;
+		-webkit-transform: translateY(-0%) translateX(-50%);
+	}
+	.loader {
+		margin: 0 auto;
+		width: 60%;
+		height: auto;
+		top: 40%;
+		left: 50%;
+		-webkit-transform: translateY(-40%) translateX(-50%);
+	}
+	.texto {
+		margin: 0 auto;
+		width: 65%;
+		height: auto;
+		top: 60%;
+		left: 50%;
+		-webkit-transform: translateY(-60%) translateX(-50%);
+		font-weight:bold;
+	}	
+}
+
+@media (max-width: 568px){
+	
+}
+
+/* 
+celulares 
+Motorola Droid 3 / 4 / Razr, Atrix 4G / 2 (540 x 960) 
+*/
+@media (max-width:540px){   
+	.logo_offline img{
+		width:27%;
+		height:auto;
+		top: 0%;
+		left: 50%;
+		-webkit-transform: translateY(-0%) translateX(-50%);
+	}
+	.loader {
+		margin: 0 auto;
+		width: 70%;
+		height: auto;
+		top: 33%;
+		left: 50%;
+		-webkit-transform: translateY(-33%) translateX(-50%);
+	}
+	.texto {
+		margin: 0 auto;
+		width: 65%;
+		height: auto;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translateY(-50%) translateX(-50%);
+		font-weight:bold;
+	}		
+}
+
+/* 
+celulares
+Sony Xperia Sola, U (480 x 854)
+3.5" Apple iPhone 3GS /4 (320 x 480 paisagem) 
+*/
+@media (max-width: 480px){
+	.logo_offline img{
+		width:27%;
+		height:auto;
+		top: 0%;
+		left: 50%;
+		-webkit-transform: translateY(-0%) translateX(-50%);
+	}
+	.loader {
+		margin: 0 auto;
+		width: 80%;
+		height: auto;
+		top: 37%;
+		left: 50%;
+		-webkit-transform: translateY(-37%) translateX(-50%);
+	}
+	.texto {
+		margin: 0 auto;
+		width: 65%;
+		height: auto;
+		top: 60%;
+		left: 50%;
+		-webkit-transform: translateY(-60%) translateX(-50%);
+		font-weight:bold;
+	}
+}
+
+/* celular 
+5.5" 
+Apple iPhone 6 Plus (414 x 736) 
+J7 Prime
+*/
+@media (max-width: 414px){
+	.logo_offline img{
+		width:25%;
+		height:auto;
+		top: 0%;
+		left: 50%;
+		-webkit-transform: translateY(-0%) translateX(-50%);
+	}
+	.loader {
+		margin: 0 auto;
+		width: 80%;
+		height: auto;
+		top: 37%;
+		left: 50%;
+		-webkit-transform: translateY(-37%) translateX(-50%);
+	}
+	.texto {
+		margin: 0 auto;
+		width: 65%;
+		height: auto;
+		top: 60%;
+		left: 50%;
+		-webkit-transform: translateY(-60%) translateX(-50%);
+		font-weight:bold;
+	}	
+}
+
+/* 
+celulares
+4.7" Google Nexus 4, LG Optimus G (384 x 640),
+4.2" BlackBerry Z10 (384 x 640)
+ */
+@media (max-width: 384px){
+	.logo_offline img{
+		width:30%;
+		height:auto;
+		top: 0%;
+		left: 50%;
+		-webkit-transform: translateY(-0%) translateX(-50%);
+	}
+	.loader {
+		margin: 0 auto;
+		width: 80%;
+		height: auto;
+		top: 37%;
+		left: 50%;
+		-webkit-transform: translateY(-37%) translateX(-50%);
+	}
+	.texto {
+		margin: 0 auto;
+		width: 65%;
+		height: auto;
+		top: 60%;
+		left: 50%;
+		-webkit-transform: translateY(-60%) translateX(-50%);
+		font-weight:bold;
+	}
+}
+
+/* 4.7" Apple iPhone 6 (375 x 667) */
+@media (max-width: 375px){
+	.logo_offline img{
+		width:25%;
+		height:auto;
+		top: 0%;
+		left: 50%;
+		-webkit-transform: translateY(-0%) translateX(-50%);
+	}
+	.loader {
+		margin: 0 auto;
+		width: 80%;
+		height: auto;
+		top: 27%;
+		left: 50%;
+		-webkit-transform: translateY(-27%) translateX(-50%);
+	}
+	.texto {
+		margin: 0 auto;
+		width: 65%;
+		height: auto;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translateY(-50%) translateX(-50%);
+		font-weight:bold;
+	}
+}
+
+/* 
+celulares
+BlackBerry Z30, HTC One, EVO LTE (360 x 640),
+Google Nexus 5, HTC Sensation, Evo 3D (360 x 640)
+5" 
+5.5"
+ */
+@media (max-width: 360px){
+	.logo_offline img{
+		width:20%;
+		height:auto;
+		top: 0%;
+		left: 50%;
+		-webkit-transform: translateY(-0%) translateX(-50%);
+	}
+	.loader {
+		margin: 0 auto;
+		width: 80%;
+		height: auto;
+		top: 27%;
+		left: 50%;
+		-webkit-transform: translateY(-27%) translateX(-50%);
+	}
+	.texto {
+		margin: 0 auto;
+		width: 65%;
+		height: auto;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translateY(-50%) translateX(-50%);
+		font-weight:bold;
+	}
+}
+
+@media (max-width: 320px){
+	.logo_offline img{
+		width:30%;
+		height:auto;
+		top: 0%;
+		left: 50%;
+		-webkit-transform: translateY(-0%) translateX(-50%);
+	}
+	.loader {
+		margin: 0 auto;
+		width: 80%;
+		height: auto;
+		top: 35%;
+		left: 50%;
+		-webkit-transform: translateY(-35%) translateX(-50%);
+	}
+	.texto {
+		margin: 0 auto;
+		width: 65%;
+		height: auto;
+		top: 65%;
+		left: 50%;
+		-webkit-transform: translateY(-65%) translateX(-50%);
+		font-weight:bold;
+	}
+}
+/* LG Optimus One (213 x 320) */
+@media (max-width:213px){   
+	.logo_offline img{
+		width:30%;
+		height:auto;
+		top: 0%;
+		left: 50%;
+		-webkit-transform: translateY(-0%) translateX(-50%);
+	}
+	.loader {
+		margin: 0 auto;
+		width: 65%;
+		height: auto;
+		top: 18%;
+		left: 50%;
+		-webkit-transform: translateY(-18%) translateX(-50%);
+	}
+	.texto {
+		margin: 0 auto;
+		width: 65%;
+		height: auto;
+		top: 65%;
+		left: 50%;
+		-webkit-transform: translateY(-65%) translateX(-50%);
+		font-weight:bold;
+	}	
+}

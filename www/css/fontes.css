@@ -1,0 +1,70 @@
+/*
+    Internet Explorer (all versions) - .EOT;
+    Safari (3.2+) - .TTF / .OTF;
+    iPhone (3.1) - .SVG;
+    Chrome (all versions) - .SVG (.TTF/.OTF added 25th Jan 2010);
+    Firefox (3.5+) - .TTF/.OTF (.WOFF added 3.6);
+    Opera (10+) - .TTF/.OTF.
+*/
+
+
+
+@font-face {
+    font-family: "Arabella";
+    src: local(Arabella), url(fonts/Arabella.ttf);
+	src:
+	url(fonts/Arabella.woff) format(woff),
+	url(fonts/Arabella.otf) format(opentype),
+	url(fonts/Arabella.svg#filename) format(svg);
+}
+
+@font-face {
+    font-family: "Bitter-Regular";
+    src: local(Bitter), url(fonts/Bitter-Regular.ttf);
+	src:
+	url(fonts/Bitter.woff) format(woff),
+	url(fonts/Bitter.otf) format(opentype),
+	url(fonts/Bitter.svg#filename) format(svg);
+}
+
+@font-face {
+    font-family: "Hero";
+    src: local(Hero), url(fonts/Hero.otf);
+	src:
+	url(fonts/Hero.woff) format(woff),
+	url(fonts/Hero.otf) format(opentype),
+	url(fonts/Hero.svg#filename) format(svg);
+}
+@font-face {
+    font-family: "swiss";
+    src: local(swiss), url(fonts/swiss.ttf);
+	src:
+	url(fonts/swiss.woff) format(woff),
+	url(fonts/swiss.otf) format(opentype),
+	url(fonts/swiss.svg#filename) format(svg);
+}
+@font-face {
+    font-family: "PoiretOne-Regular";
+    src: local(PoiretOne-Regular), url(fonts/PoiretOne-Regular.ttf);
+	src:
+	url(fonts/PoiretOne-Regular.woff) format(woff),
+	url(fonts/PoiretOne-Regular.otf) format(opentype),
+	url(fonts/PoiretOne-Regular.svg#filename) format(svg);
+}
+@font-face {
+    font-family: "OpenSans-CondLight";
+    src: local(OpenSans-CondLight), url(fonts/OpenSans-CondLight.ttf);
+	src:
+	url(fonts/OpenSans-CondLight.woff) format(woff),
+	url(fonts/OpenSans-CondLight.otf) format(opentype),
+	url(fonts/OpenSans-CondLight.svg#filename) format(svg);
+}
+@font-face {
+    font-family: "Swiss_721_Condensed_BT";
+    src: local(Swiss_721_Condensed_BT), url(fonts/Swiss_721_Condensed_BT.ttf);
+	src:
+	url(fonts/Swiss_721_Condensed_BT.woff) format(woff),
+	url(fonts/Swiss_721_Condensed_BT.otf) format(opentype),
+	url(fonts/Swiss_721_Condensed_BT.svg#filename) format(svg);
+}
+

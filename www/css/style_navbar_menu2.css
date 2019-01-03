@@ -1,0 +1,439 @@
+
+a{
+	text-decoration:none;
+	outline:none;	
+}
+.noscroll {
+  position: fixed;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+}
+.navbar {
+	background:#248a41;  /*ededed;  20522a    b50a06*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-bottom: 0;
+	border-top: 0px solid #f44336;
+	border-bottom:0px solid #000;
+	border-radius: 0px;
+	height:50px;
+}
+.box_navbar{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.btn_voltar_navbar{
+	float:left;
+	width:10%;
+	padding:5px 0px 0px 0px;
+	margin-top:10px;
+}
+.btn_voltar_navbar a{
+	float:left;
+	background:#;
+	color:#fff;
+	font-size:17px;
+}
+.btn_voltar_navbar img{
+	height:18px;
+	width:auto;
+}
+.titulo_navbar{
+	float:left;
+	width:50%;
+	height:28px;
+	padding:0px 0px 0px 0px;
+	margin-top:14px;
+	background:#;
+	font-family:open sans, sans-serif;
+	font-size:15px;
+	color:#fff;
+}
+.titulo_navbar2{
+	float:left;
+	width:60%;
+	height:28px;
+	padding:0px 0px 0px 0px;
+	margin-top:14px;
+	background:#;
+	font-family:open sans, sans-serif;
+	font-size:15px;
+	color:#fff;
+}
+.btn_menu_navbar{
+	float:right;
+	width:10%;
+	margin-top:10px;
+	padding-top:2px;
+	background:;
+}
+.btn_menu_navbar i{
+	font-size:1.5em;
+	color:#fff;
+}
+.toggleMenu {
+	float:right;
+    background:; 
+    border: 0px solid #1f5404;
+	outline: none;
+	cursor: pointer;
+	border-radius: 0px;
+	padding:0px 0px 0px 0px;
+	text-decoration:none;
+	margin-top:0px;
+}
+
+.toggleMenu a{
+	outline:none;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:14px;
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+}
+.btn_icon1_navbar{
+	float:left;
+	width:10%;
+	padding:5px 0px 0px 0px;
+	margin-top:10px;
+}
+.btn_icon1_navbar a{
+	float:right;
+}
+.btn_icon1_navbar img{
+	height:19px;
+	width:auto;
+}
+.btn_icon2_navbar{
+	float:left;
+	width:10%;
+	padding:5px 0px 0px 0px;
+	margin-top:10px;
+}
+.btn_icon2_navbar a{
+	float:right;
+}
+.btn_icon2_navbar img{
+	height:20px;
+	width:auto;
+}
+
+.btn_icon3_navbar{
+	float:left;
+	width:10%;
+	padding:5px 0px 0px 0px;
+	margin-top:10px;
+}
+.btn_icon3_navbar a{
+	float:right;
+}
+.btn_icon3_navbar img{
+	height:17px;
+	width:auto;
+}
+
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 30;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.mobile-side-menu {
+	/* width: 740px; */
+	display: none;
+	background-color: #248a41;
+	bottom: 0px;
+	z-index: 30;
+	/* overflow-x: hidden; */
+	overflow-y: auto;
+	/* has to be scroll, not auto */
+	-webkit-overflow-scrolling: touch;
+	margin-top:50px;
+	height:100%;
+	padding:0px 0px 0px 0px;
+}
+
+/* fundo links */
+.mobile-side-menu ul {
+	/* box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 5px 8px 0 rgba(0, 0, 0, .14), 0 1px 14px 0 rgba(0, 0, 0, .12); */
+	display: inline-block;
+	margin: -16px 0px 0px 0px;
+	background-color:	 ;  /* 1b1b1b 248a41 */
+	list-style: none;
+	padding:0px 0px 0px 0px;
+}
+.mobile-side-menu ul > li {
+	text-align: left;
+
+}
+
+/* links menu */
+.mobile-side-menu ul > li > a {
+	text-transform: uppercase;
+    text-decoration: none;
+    /* line-height: 21px; */
+    position: relative;
+    display: block;
+    font-size: 12px;
+    color: white;
+    padding:5px 25px 5px 15px;
+    font-weight: bold;
+    border-bottom: solid 0px #3f3f3f;
+	font-family: 'Open Sans', sans-serif;
+	outline:none;
+	background:;
+}
+
+.mobile-side-menu ul > li > a:hover,.mobile-side-menu ul > li.active > a{
+	background:#eff9de;
+	color:#212121;
+}
+
+
+.mobile-side-menu ul > li.active > a i,.mobile-side-menu ul > li > a:hover i{
+	color:#11931d;
+}
+.mobile-side-menu ul > li > a > i {
+    padding-right: 1em;
+    color: #ffff00;
+}
+.mobile-side-menu ul > li:first-child{
+	padding-top:1em;
+}
+
+/* ------------ responsivo --------------*/
+@media (max-width:736px){
+	.mobile-side-menu ul > li > a {
+	padding: 0.7em 1.5em;
+	}	
+}
+
+@media (max-width:667px){ 
+	.mobile-side-menu ul > li > a {
+		font-size: 12px;
+	}
+}
+
+/* celulares
+5" , 5.5" - lindscap 
+*/
+@media (max-width: 640px){
+	.mobile-side-menu ul > li > a {
+		padding: 1em 1em;
+	}
+	.mobile-side-menu ul > li:first-child {
+		padding-top: 1.3em;
+	}
+}
+
+/* 
+tablet
+Samsung Galaxy Tab (600 x 1024), 
+BlackBerry PlayBook (600 x 1024),
+Amazon Kindle Fire (600 x 800) 
+*/
+@media (max-width: 600px){
+	.mobile-side-menu ul > li > a {
+		padding: 1em 1em;
+	}	
+}
+
+@media (max-width: 568px){
+	.mobile-side-menu {
+		width: 240px;
+		margin-top:50px;
+	}
+	.mobile-side-menu ul > li > a {
+		padding: 0.5em 2em;
+	}	
+}
+
+/* 
+celulares
+Sony Xperia Sola, U (480 x 854)
+3.5" Apple iPhone 3GS /4 (320 x 480 paisagem) 
+*/
+@media (max-width: 480px){
+	.mobile-side-menu {
+		width: 200px;
+		margin-top:50px;
+	}
+	.mobile-side-menu ul > li > a {
+		padding: 0.5em 0.5em;
+	}
+}
+
+/* celular 
+5.5" 
+Apple iPhone 6 Plus (414 x 736) 
+J7 Prime
+*/
+@media (max-width: 414px){
+	.mobile-side-menu {
+		width: 200px;
+		margin-top:50px;
+	}
+	.mobile-side-menu ul > li > a {
+		padding: 0.5em 0.5em;
+	}	
+}
+
+/* 
+celulares
+4.7" Google Nexus 4, LG Optimus G (384 x 640),
+4.2" BlackBerry Z10 (384 x 640)
+ */
+@media (max-width: 384px){
+	.mobile-side-menu {
+		width: 200px;
+		margin-top:50px;
+	}
+	.mobile-side-menu ul > li > a {
+		padding: 0.5em 0.5em;
+	}
+}
+
+/* 4.7" Apple iPhone 6 (375 x 667) */
+@media (max-width: 375px){
+	.mobile-side-menu {
+		width: 200px;
+		margin-top:50px;
+	}
+	.mobile-side-menu ul > li > a {
+		padding: 0.5em 0.5em;
+	}
+}
+
+/* 
+celulares
+BlackBerry Z30, HTC One, EVO LTE (360 x 640),
+Google Nexus 5, HTC Sensation, Evo 3D (360 x 640)
+5" 
+5.5"
+ */
+@media (max-width: 360px){
+	.mobile-side-menu {
+		overflow-y: auto;
+	/* has to be scroll, not auto */
+	-webkit-overflow-scrolling: touch;
+		background:#;
+		padding:5px 0px 5px 0px;
+		margin: 36px -15px 0px 0px;
+	}
+	.mobile-side-menu ul {
+		margin: -16px 0px 0px 0px;
+		background-color: ;  /* 1b1b1b */
+}
+	.mobile-side-menu ul > li > a {
+		padding:6px 25px 6px 15px;
+		font-size: 11px;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 320px){
+	.mobile-side-menu {
+		overflow-y: auto;
+	/* has to be scroll, not auto */
+	-webkit-overflow-scrolling: touch;
+		background:#;
+		padding:5px 0px 5px 0px;
+		margin: 36px -15px 0px 0px;
+	}
+	.mobile-side-menu ul {
+		margin: -16px 0px 0px 0px;
+		background-color: ;  /* 1b1b1b */
+}
+	.mobile-side-menu ul > li > a {
+		padding:6px 25px 6px 15px;
+		font-size: 11px;
+		font-weight: bold;
+	}
+}
+/* -------------------- início redes sociais ------------------------ */
+.redes_sociais{	
+	width:100%;
+	background:#;
+	margin-top:30px;
+	height:150px;
+	padding-bottom:200px;
+
+}
+.face_menu{
+	float:left;
+	margin-left:30px;
+	font-family:'Open Sans', sans-serif;
+	font-size:10px;
+	margin-top:5px;
+	font-weight:bold;
+	text-align:center;
+
+}
+.face_menu p{
+	color:#fff;
+	font-family:'Open Sans', sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+}
+.face_menu i{
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+	color: #fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	font-size:12px;
+	text-align:center;
+	border: solid 1px #fff;
+	border-radius: 3px;
+	background:#0e41e2;
+    color: #fff;	
+}
+.insta_menu{
+	float:left;
+	margin-left:15px;
+	background:;
+	font-family:'Open Sans', sans-serif;
+	font-size:10px;
+	margin-top:5px;
+	font-weight:bold;
+	text-align:center;
+}
+.insta_menu p{
+	color:#fff;
+	font-family:'Open Sans', sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+}
+.insta_menu i{
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+	color: #fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	font-size:12px;
+	text-align:center;
+    border: solid 1px #fff;
+	border-radius: 3px;
+	background:#a633b4;
+}

@@ -1,0 +1,367 @@
+
+body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	background:#e5e5e5; /* background: #e2e2e2; */
+    background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* ------------- início display loading ------------- */
+.corpo{
+	display:none;
+}
+.carregando{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:none;
+}
+/* ------------- fim display loading ------------- */
+
+.text_card_top{
+	color:#212121;
+	padding:10px 15px 20px 15px;
+	width:100%;
+	font-family:Swiss_721_Condensed_BT;
+	font-size:0.9em;
+	text-align:justify;
+	background:#fff;
+	box-shadow: 0 2px 3px -2px gray;
+	margin-top:50px;
+}
+
+.text_card{
+	color:#212121;
+	padding:10px 0px 20px 0px;
+	width:100%;
+	background:#fff;
+	box-shadow: 0 2px 3px -2px gray;
+	margin-top:10px;
+}
+/* ------------- início onde estamos ------------- */
+.box_container_topo{
+	margin-top:20px;
+	margin-right: auto;
+	margin-left: auto;
+	width:95%;
+	height:auto;
+}
+.titulo_contatos{
+	color:#212121;
+	padding:20px 15px 25px 15px;
+	width:100%;
+	font-family:sans-serif;
+	font-size:0.9em;
+	text-align:center;
+	margin-top:58px;
+}
+
+.titulo_contatos_endereco{
+	padding:10px 0px 5px 0px;
+	font-family:PoiretOne-Regular;
+	font-size:1.4em;
+	font-weight:bold;
+	text-align:center;
+	color:#000;
+}
+.sublinhado_endereco{
+	width:40%;
+	height:1px;
+	background:#ff0000;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:0px;
+}
+
+.texto_contatos_endereco{
+	color:#212121;
+	padding:20px 10px 20px 10px;
+	width:100%;
+
+}
+.icon_end{
+	width:100%;
+	height:100px;
+	margin:0px 0px 5px 0px;
+
+}
+.icon_end0{
+	background:;
+	text-align:center;
+	width:100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:-20px;
+}
+.icon_end0 i{
+	color:#4CAF50;
+	font-size:2.5em;
+}
+.icon_end1{
+	background:;
+	text-align:center;
+	width:100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:20px;
+}
+.icon_end1 i{
+	color:#4CAF50;
+	font-size:2.5em;
+}
+.icon_end2{
+	background:;
+	text-align:center;
+	width:100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:20px;
+}
+.icon_end2 i{
+	color:#4CAF50;
+	font-size:2.1em;
+}
+.txt_end{
+	padding:5px 0px 2px 0px;
+	width:100%;
+	font-family:Swiss_721_Condensed_BT;
+	font-size:0.9em;
+	text-align:center;
+	color:#212121;
+}
+.txt_end1{
+	padding:0px 0px 5px 0px;
+	width:85%;
+	font-family:Swiss_721_Condensed_BT;
+	font-size:0.9em;
+	text-align:center;
+	color:#212121;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* ------------- fim onde estamos ------------- */
+
+/* ------------- início formulário de contatos ------------- */
+.box_container_form{
+	margin-top:20px;
+	margin-right: auto;
+	margin-left: auto;
+	width:95%;
+	height:auto;
+}
+.titulo_contatos_fom{
+	padding:10px 0px 5px 0px;
+	font-family:PoiretOne-Regular;
+	font-size:1.4em;
+	font-weight:bold;
+	text-align:center;
+	color:#000;
+}
+.sublinhado_form{
+	width:70%;
+	height:1px;
+	background:#ff0000;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:0px;
+}
+.subtitulo_contatos_form{
+	color:#212121;
+	padding:0px 10px 0px 10px;
+	width:100%;
+	font-family:Swiss_721_Condensed_BT;
+	font-size:0.9em;
+	text-align:center;
+}
+.texto_contatos_form{
+	color:#212121;
+	padding:10px 10px 20px 10px;
+	width:100%;
+}
+/* Full-width input fields */
+.texto_contatos_form input[type=text], .texto_contatos_form input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 10px 0;
+	border: none;
+	background: #e9f0da;
+	font-family:sans-serif;
+	font-size:0.8em;
+	border-radius:3px;
+}
+
+.texto_contatos_form input[type=text]:focus, .texto_contatos_form input[type=password]:focus {
+	box-shadow: 0 3px 0px -1px rgba(0, 0, 0, 0), 0 5px 8px 0 rgba(0, 0, 0, .14), 0 1px 7px 0 rgba(0, 0, 0, .12);
+	background-color: #deeac1;
+	outline: none;
+	border:1px solid #11931d;
+}
+.textarea_cont{
+	width: 100%;
+	height:120px;
+	background: #e9f0da;
+	border: none;
+	padding: 15px;
+	font-family:sans-serif;
+	font-size:0.8em;
+	border-radius:3px;
+	margin-top:5px;
+}
+.textarea_cont:focus{
+	box-shadow: 0 3px 0px -1px rgba(0, 0, 0, 0), 0 5px 8px 0 rgba(0, 0, 0, .14), 0 1px 7px 0 rgba(0, 0, 0, .12);
+	outline: none;
+	background-color: #deeac1;
+	border:1px solid #11931d;
+}
+.btn_cont{
+	width: 100%;
+	text-align:center;
+}
+/* Set a style for the submit button */
+.btn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 49%;
+	opacity: 0.9;
+	border-radius:3px;
+}
+.btn:hover {
+	opacity: 1;
+}
+/* ------------- fim formulário de contatos ------------- */
+
+/* ------------- início formulário newslwtter ------------- */
+.box_container_news{
+	margin-top:20px;
+	margin-right: auto;
+	margin-left: auto;
+	width:95%;
+	background:;
+}
+.sublinhado_news{
+	width:35%;
+	height:1px;
+	background:#ff0000;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:0px;
+}
+.texto_contatos_news{
+	color:#212121;
+	padding:0px 10px 10px 10px;
+	width:100%;
+	font-family:Swiss_721_Condensed_BT;
+	font-size:0.9em;
+	text-align:center;
+}
+.container_news{
+	width:100%;
+	height:80px;
+	background:;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:0px;
+	padding:0px 10px 0px 10px;
+}
+.container_input input[type=text], .container_input input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 10px 0;
+	border: none;
+	/* background: #f1f1f1; */
+	background: #e9f0da;
+	font-family:sans-serif;
+	font-size:0.8em;
+	border-radius:3px;
+}
+
+.container_input input[type=text]:focus, .container_input input[type=password]:focus {
+	/* background-color: #ddd; */
+	background-color: #deeac1;
+	outline: none;
+}
+
+.container_input {
+	width:69%;
+	float:left;
+
+}
+.container_btn {
+	width:30%;
+    float:right;
+	margin-left:1%;
+}
+.btn_news{
+	background-color: #4CAF50;
+	color: white;
+	padding: 15px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+	margin-top:5px;
+	border-radius:3px;
+}
+ 
+/* ------------- fim formulário newslwtter ------------- */
+
+/* ------------- início localização ------------- */
+.box_container_loc{
+	margin-top:20px;
+	margin-right: auto;
+	margin-left: auto;
+	width:100%;
+}
+.sublinhado_loc{
+	width:55%;
+	height:1px;
+	background:#ff0000;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:0px;
+}
+.subtitulo_contatos_loc{
+	color:#212121;
+	padding:20px 10px 0px 10px;
+	width:100%;
+	font-family:sans-serif;
+	font-size:0.9em;
+	text-align:center;
+}
+.texto_contatos_loc{
+	color:#212121;
+	padding:20px 0px 10px 0px;
+	width:100%;
+	font-family:sans-serif;
+	font-size:0.9em;
+	text-align:center;
+}
+/* ------------- fim localização ------------- */
+
+
+.bg-img {
+	/* The image used */
+	background-image: url("9.jpg");
+	min-height: 380px;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,289 @@
+body{
+	margin:0;
+	font-family:'Hero', 'Open Sans', sans-serif;
+	background:#fff; /* background: #e2e2e2; */
+    background-size: cover;
+}
+a{
+	text-decoration:none;
+	outline:none;	
+}
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: transparent;
+  text-decoration: none;
+}
+.corpo_central_inicio{	
+	margin-top:0px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.btn_share {
+	margin:10px 15px 0px 0px;	
+}
+.btn_share img{
+	height:20px;
+	width:auto;
+	cursor:pointer;
+}
+.navbar_icones {
+	background:#fff;  /* ededed  e9f0da  20522a  248a41  b50a06 */
+	position:;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0), 0 5px 4px 0 rgba(0, 0, 0, 0), 0 1px 14px 0 rgba(0, 0, 0, 0.1);
+	margin-bottom: 0;
+	border-top: 0px solid #f44336;
+	border-bottom:0px solid #000;
+	border-radius: 0px;
+	height:50px;
+}
+
+.navbar_icones_left{
+	background:#;
+	width:50%;
+	float:left;
+}
+.navbar_icones_right{
+	background:;
+	width:50%;
+	height:50px;
+	float:right;
+	margin-top:0px;
+	color:#248a41;
+}
+
+.navbar_icones_right p{
+	margin-top:-10px;
+	text-align:right;
+	padding:15px 0px 0px 0px;
+	background:;
+	height:35px;
+}
+.navbar_icones_right i{
+	font-size:2em;
+
+}
+.logo_icones{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background:;
+}
+.logo_icones p{
+	margin:0px 0px 0px 0px;
+	padding-top:5px;
+	text-align:left;
+}
+
+.logo_icones img{
+	height:42px;
+	width:auto;
+}
+
+.tab1{
+	width:100%;
+	height:auto;
+	background:#;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	-webkit-transform: translateY(-65%) translateX(-50%);
+
+}
+.tab2_img{
+	float:left;
+	background:;
+	width:31.3%;
+	margin:0px 0px 0px 0px;
+	height:100%;
+	/* padding-right: 5px; */
+	/* padding-left: 5px; */
+}
+#t1{
+	margin-right:10px;
+}
+.tab2_2_img{
+	text-align:center;
+	background:;
+	color:#303030;
+	padding-top:20px;
+	padding-left:15px;
+	padding-right:15px;
+}
+.tab2_2_img img{
+	width:65%;
+	background:;
+
+}
+.tab3_img{
+	float:left;
+	margin-top:0px;
+	width:100%;
+	padding:-10px 0px 0px 0px;
+	background:;
+}
+.tab3_img_txt{
+	text-align:center;
+	font-family:sans-serif;
+	font-size:10.4px;
+	color:#212121;
+	font-weight:bold;
+	background:#;
+	padding:0px 5px 0px 5px;
+}
+
+/* 
+celulares
+3.5" Apple iPhone 3GS /4 (320 x 480),
+4" Apple iPhone 5 (320 x 568),
+Google Nexus S, LG Optimus 2X / 3D / Black (320 x 533),
+HTC Evo, Touch HD, Desire HD, Desire (320 x 533),
+4" Google Nexus S (320 x 533),
+LG Optimus One (213 x 320 paisagem)
+ */
+@media (max-width:320px){   
+	.tab1{
+		width:93%;
+		height:auto;
+		background:;
+		position: absolute;
+		top: 65%;
+		left: 50%;
+		-webkit-transform: translateY(-65%) translateX(-50%);
+	}
+	.tab2_img{
+		width:30%;
+	}
+.tab2_2_img img{
+	width:60%;
+	background:;
+}
+
+}
+
+
+/* --------------------------  início modal  -------------------------------------- */
+
+/* Campos de entrada de largura total */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* Definir um estilo para todos os botões */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Centralize a imagem e posicione o botão fechar */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0px 12px 0px;
+    position: relative;
+	background:;
+	padding-top:20px;
+}
+
+img.avatar {
+    width: 40%;
+    /* border-radius: 50%; */
+}
+img.r_social {
+    width: 20%;
+    /* border-radius: 50%; */
+}
+.container_modal {
+    padding: 16px;
+	font-family:sans-serif;
+	color:#fff;
+	text-align:center;
+
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Modal (background) */
+.modal {
+    display: none; /* Escondido por padrão */
+    position: fixed; /* Fixado no lugar */
+    z-index: 1; /* Sente-se no topo */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura completa */
+    height: 100%; /* Altura completa */
+    overflow: auto; /* Ative a rolagem, se necessário */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.1); 
+    padding-top: 0px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #248a41;
+    margin: 5% auto 15% auto; /* 5% a partir do topo, 15% a partir do fundo e centrado */
+    border: 0px solid #fff;
+    width: 90%; /* Poderia ser mais ou menos, dependendo do tamanho da tela */
+	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 5px 8px 0 rgba(0, 0, 0, .14), 0 1px 14px 0 rgba(0, 0, 0, .12);
+}
+.modal-content img{
+    border: 0px solid #888;
+
+}
+
+/* O botão Fechar (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Adicionar animação de zoom*/
+.animate {
+    -webkit-animation: animatezoom 0.95s;
+    animation: animatezoom 0.95s
+}
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+

@@ -1,0 +1,390 @@
+/* ------------- início display loading ------------- */
+.corpo{
+	display:none;
+}
+.carregando{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:none;
+}
+/* ------------- fim display loading ------------- */
+
+body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	background:#e5e5e5; /* background: #e2e2e2; */
+    background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+.busca_navbar {
+	background:#248a41;  /*ededed;  20522a  248a41  b50a06*/
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 0;
+	border-top: 0px solid #f44336;
+	border-bottom:0px solid #000;
+	border-radius: 0px;
+	height:46px;
+	padding:0px 10px 0px 10px;
+}
+.lista_tabela{
+	margin-top:100px;
+	margin-right: auto;
+	margin-left: auto;
+	position:absolute;
+	width:100%;
+	padding:0px 10px 20px 10px;
+}
+
+.tab_nutri{
+	width:100%;
+	height:38px;
+}
+.tab_nutri_img{
+	float:left;
+	margin-right:0px;
+	background:;
+	width:10%;
+	height:100%;
+}
+.tab_nutri_titulo{
+	color:#444444;
+	margin-right:10px;
+	font-family:Swiss_721_Condensed_BT;
+	font-size:0.9em;
+	font-weight:;
+	width:76%;
+	float:left;
+	padding:0px 0px 1px 10px;
+}
+.tab_nutri_subtitulo{
+	margin-right:10px;
+	padding:0px 0px 1px 10px;
+	font-size:12px;
+	font-style:italic;
+	font-family:sans-serif;
+	color:#248a41;
+	width:76%;
+	float:left;
+}
+.tab_nutri_seta{
+	float:right;
+	width:10%;
+	height:auto;
+	padding:0px 0px 0px 30px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+}
+button {
+    background-color: #fff;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+	padding:5px 0px 5px 0px;
+	float:right;
+	border-radius:0px 5px 5px 0px;
+	color:#212121;
+	
+}
+button:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+button img{
+	height:24px;
+	width:auto;
+}
+a:focus{
+	outline:none;
+	text-decoration:none;
+}
+/* início botão Fechar (x) */
+.close {
+    color: #cacaca;
+    font-size: 22px;
+    font-weight: bold;
+	background:#fff;
+	padding: 5px 0px 5px 0px;
+	height:36px;
+	width:10%;
+}
+
+.close:hover,
+.close:focus {
+    color: #828282;
+    cursor: pointer;
+}
+/* fim botão Fechar (x) */
+
+#myInput {
+	background-image: url('../imagens/searchicon.png'); /* Add a search icon to input */
+	background-position: 10px 8px; /* Position the search icon */
+	background-repeat: no-repeat; /* Do not repeat the icon image */
+	background-color:#fff;
+	width: 90%; /* Full-width */
+	font-size: 14px; /* Increase font-size */
+	padding: 10px 20px 10px 40px; /* Add some padding */
+	border: 0px solid #ddd; /* Add a grey border */
+	margin-bottom: 12px; /* Add some space below the input */
+	border-radius:5px 0px 0px 5px;
+	height:36px;
+	color:#444444;
+}
+
+#myUL {
+	/* Remove default list styling */
+	list-style-type: none;
+	padding: 0;
+	margin: -5px 0px 10px 0px;	
+	border:0px solid #000;
+}
+input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+#myUL li a {
+	border-radius:5px;
+	box-shadow: 0 2px 3px -2px gray;
+	/* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.3); */
+	margin-top: 10px; /* Prevent double borders */
+	background-color: #fff; /* Grey background color */
+	padding: 12px; /* Add some padding */
+	text-decoration: none; /* Remove default text underline */
+	font-size: 18px; /* Increase the font-size */
+	color: black; /* Add a black text color */
+	display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+	background-color: #fff; /* Add a hover effect to all links, except for headers */
+}
+
+/* início filtro */
+.titulo_filter{
+	color:#212121;
+	padding:10px 0px 12px 0px;
+	width:100%;
+	font-family:PoiretOne-Regular;
+	font-size:1.15em;
+	text-align:center;
+	background:#fff;
+	font-weight:bold;
+	margin-top:50px;
+	position:fixed;
+	z-index:999;
+	border-bottom:1px solid #cacaca;
+}
+.lista_filter{
+	margin-top:95px;
+	margin-right: auto;
+	margin-left: auto;
+	position:absolute;
+	width:100%;
+	padding:0px 10px 20px 10px;
+}
+#myUL_filter {
+	/* Remove default list styling */
+	list-style-type: none;
+	padding: 0;
+	margin: 0px 0px 0px 0px;
+	/* height:auto; */
+
+}
+#myUL_filter li a {
+	width:100%;
+	float:left;
+	border-radius:5px;
+	/* height:auto; */
+	box-shadow: 0 2px 3px -2px gray;
+	/* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.3); */
+	margin-top: 10px; /* Prevent double borders */
+	background-color: #fff; /* Grey background color */
+	padding: 10px; /* Add some padding */
+	text-decoration: none; /* Remove default text underline */
+	font-size: 18px; /* Increase the font-size */
+	color: black; /* Add a black text color */
+	display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL_filter li a:hover:not(.header) {
+	background-color: #fff; /* Add a hover effect to all links, except for headers */
+}
+.tab_filter_img{
+	width:10%;
+	float:left;
+	padding:4px 0px 0px 0px;
+	background:#;
+}
+.tab_filter_titulo{
+	background:#;
+	color:#248a41;
+	margin-right:0px;
+	font-family:Swiss_721_Condensed_BT;
+	font-size:0.9em;
+	width:85%;
+	float:left;
+	padding:8px 0px 0px 10px;
+}
+.tab_filter_seta{
+	background:#;
+	float:left;
+	width:5%;
+	height:auto;
+	padding:8px 0px 0px 0px;
+	text-align:right;
+}
+/* fim filtro */
+
+
+/* início tababela individual                PoiretOne-Regular */
+.titulo_tab_individual{
+	color:#212121;
+	padding:5px 0px 5px 0px;
+	width:100%;
+	font-family:Swiss_721_Condensed_BT;
+	font-size:1.15em;
+	text-align:center;
+	background:#fff;
+	margin-top:50px;
+	position:fixed;
+	z-index:999;
+	border-bottom:1px solid #cacaca;
+}
+.sub_tab_individual{
+	color:#212121;
+	padding:0px 0px 0px 0px;
+	width:100%;
+	font-family:Swiss_721_Condensed_BT;
+	font-size:0.7em;
+	text-align:center;
+	font-style:italic;
+	color:#248a41;
+}
+.corpo_tabela_nutricional{
+	margin-top:98px;
+	margin-right: auto;
+	margin-left: auto;
+	position:absolute;
+	width:100%;
+}
+
+.apres_tab{
+	width:100%;
+	height:100%;
+	background:#fff;
+
+}
+
+.text_apres_tab{
+	color:#212121;
+	padding:10px 15px 20px 15px;
+	width:100%;
+	font-family:Swiss_721_Condensed_BT;
+	font-size:0.9em;
+	text-align:justify;
+	background:#fff;
+	box-shadow: 0 2px 3px -2px gray;
+}
+.text_tabela{
+	color:#212121;
+	padding:17px 15px 20px 15px;
+	width:100%;
+	font-family:Swiss_721_Condensed_BT;
+	font-size:0.9em;
+	text-align:justify;
+	background:#fff;
+	box-shadow: 0 2px 3px -2px gray;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+.in {
+  font-family: arial, sans-serif;
+  font-size:0.8em;
+  color:#212121;
+  font-weight:bold;
+  border-collapse: collapse;
+  width: 100%;
+  background:#dddddd;
+}
+.in td, th {
+  border: 0px solid #dddddd;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.in2 {
+  font-family: arial, sans-serif;
+  font-size:0.8em;
+  font-weight:bold;
+  border-collapse: collapse;
+  width: 100%;
+  background:#dddddd;
+  color:#212121;
+}
+.in2 td, th {
+  border: 0px solid #dddddd;
+  text-align: center;
+  padding: 0px;
+}
+
+.in3 {
+  font-family: arial, sans-serif;
+  font-size:0.9em;
+  border-collapse: collapse;
+  width: 100%;
+  background:#dddddd;
+}
+.in3 td, th {
+  border: 0px solid #dddddd;
+  text-align: center;
+  padding: 5px 0px 10px 0px;
+
+}
+ia {
+  font-style: italic;
+}
+.in4 {
+  font-family: arial, sans-serif;
+  font-size:0.9em;
+  border-collapse: collapse;
+  width: 100%;
+  background:#ededed;
+
+}
+.in4 td, th {
+  border: 0px solid #dddddd;
+  padding: 8px;
+
+}
+.asd, asd td{
+	text-align:left;
+	  padding: 8px;
+}
+
+.asf, asf td{
+	text-align:right;
+	padding: 8px
+}
+.asg, asg td{
+	text-align:right;
+	padding: 8px
+
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* fim tabala individual */
